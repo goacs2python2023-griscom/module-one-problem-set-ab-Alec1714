@@ -1,7 +1,7 @@
 List of completed problems
 
-1.
-2.
+1.fundraiser.py
+2.tipcalculator.py
 3.
 4.
 5.
