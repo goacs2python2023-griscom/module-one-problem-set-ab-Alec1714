@@ -1,6 +1,19 @@
-my_time = 10.8
-opp1_time = 11
-opp2_time = 12
-opp3_time = 14
 
-if my_time > 
+
+def race(my_time, opp1_time, opp2_time, opp3_time):
+    if my_time < opp1_time and my_time < opp2_time and my_time < opp3_time:
+        return "Gold"
+
+    elif my_time > opp1_time and my_time < opp2_time and my_time < opp3_time:
+        return "Silver"
+
+    elif my_time > opp1_time and my_time > opp2_time and my_time < opp3_time:
+        return "Bronze"
+
+    else:
+        return "no medal"
+
+
+print (race(12,13,14,15))
+
+
