@@ -7,4 +7,4 @@ List of completed problems
 5.twodice.py
 6.square.py
 7.casinochance.py
-8.
+8.cardgame.py
